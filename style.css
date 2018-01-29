@@ -4,11 +4,14 @@
   color:pink;
 }*/
 p{
-  color:#666666
-  font-family: Helvetica, Arial, sans-serif;
+  color:#666666；inherit;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 h1{
+  font-family: Impact, "Times New Roman", Charcoal, sans-serif;
+}
+h2{
   font-family: Impact, "Times New Roman", Charcoal, sans-serif;
 }
 
@@ -22,7 +25,7 @@ h1{
   margin: 0 auto;
 }
 #nav {
-  list-style-type: none;
+  list-style-type: 0;
   padding: 0;
 }
 
@@ -31,9 +34,10 @@ h1{
 }
 
 #nav a:link {
+  font-family: Arial, Helvetica, sans-serif；sans-serif;
   text-decoration: none;
   color: #ffffff;
-  background-color: #98bf21;
+  background-color: #aca66a;
   font-weight: bold;
   text-align: center;
   display: block;
