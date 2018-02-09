@@ -4,14 +4,25 @@
   color:pink;
 }*/
 p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', 'Playfair Display', serif;
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+
+.italic {
+  font-style: italic;
 }
 
 h1{
-  font-family: Impact, "Times New Roman", sans-serif;
+  font-family: 'Lobster', cursive, "Impact", sans-serif;
 }
 h2{
   font-family: Impact, "Times New Roman", sans-serif;
+  font-size: 3rem
+}
+
+body{
+  background-color:#eec88c
 }
 
 #container {
@@ -23,18 +34,13 @@ h2{
   margin: 0 auto 0 auto;*/
   margin: 0 auto;
 }
-#nav {
+#nav li {
   list-style-type: none;
   padding: 0;
-}
-
-#nav li {
-  /* text-decoration: none; */
-}
-
-#nav li {
   margin: 0;
   padding:0;
+  width: 25%
+  float:left;
 }
 
 #nav a:link, #nav a:visited {
@@ -58,7 +64,7 @@ h2{
   font-style: italic;
   font-size: 0.8em;
   margin-top: 0;
-  text-align: right;
+  text-align: inherit;
 }
 
 #footer{
@@ -71,4 +77,6 @@ h2{
 
 img {
   border:none;
+  image-orientation: center;
+
 }
