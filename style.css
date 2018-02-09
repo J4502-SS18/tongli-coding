@@ -4,9 +4,11 @@
   color:pink;
 }*/
 p{
+  color: #ffffff;
   font-family: 'Vollkorn', 'Playfair Display', serif;
   font-size: 1.5rem;
   line-height: 1rem;
+
 }
 
 .italic {
