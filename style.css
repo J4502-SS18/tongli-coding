@@ -41,7 +41,6 @@ body{
   margin: 0;
   padding:0;
   width: 15%;
-  float:left;
 }
 
 #nav a:link, #nav a:visited {
