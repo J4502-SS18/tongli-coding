@@ -4,7 +4,6 @@
   color:pink;
 }*/
 p{
-  color: #ffffff;
   font-family: 'Vollkorn', 'Playfair Display', serif;
   font-size: 1.5rem;
   line-height: 1rem;
@@ -20,11 +19,11 @@ h1{
 }
 h2{
   font-family: Impact, "Times New Roman", sans-serif;
-  font-size: 3rem
+  font-size: 3rem;
 }
 
 body{
-  background-color:#eec88c
+  background-color:#eec88c;
 }
 
 #container {
@@ -41,7 +40,7 @@ body{
   padding: 0;
   margin: 0;
   padding:0;
-  width: 25%
+  width: 25%;
   float:left;
 }
 
@@ -53,11 +52,11 @@ body{
   font-weight: bold;
   text-align: center;
   display: block;
-  padding: 4px
+  padding: 4px;
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #eec88c
+  background-color: #eec88c;
 }
 
 .caption{
