@@ -3,11 +3,33 @@
 /*p{
   color:pink;
 }*/
+body {
+	font-size: 1em;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #fff;
+	background: #aca66a;
+	padding-left: 5%;
+	padding-right: 5%;
+}
 p{
   font-family: 'Vollkorn', 'Playfair Display', serif;
   font-size: 1.5rem;
-  line-height: 1rem;
+  line-height: 2rem;
 
+}
+.container {
+	padding: 10px;
+	background: #fff;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+.item {
+	color: #000;
+	padding: 15px;
+	margin: 5px;
+	background: #aca66a;
+	border-radius: 3px;
 }
 
 .italic {
