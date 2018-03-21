@@ -17,7 +17,8 @@ p{
   line-height: 2rem;
 
 }
-.container {
+.container li:last-of-type a{
+  border-bottom: none;
 	padding: 3px;
 	background: #fff;
   border-radius: 5px;
