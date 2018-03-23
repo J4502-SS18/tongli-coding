@@ -3,6 +3,15 @@
 /*p{
   color:pink;
 }*/
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+header, article, aside, footer {
+  flex: 1 100%;
+  padding: 10px;
+}
+
 body {
 	font-size: 1em;
 	font-family: 'Merriweather Sans', sans-serif;
@@ -106,27 +115,20 @@ body{
 }
 
 img {
-  border:none;
-	float:left;
-	margin-right: 10px;
-	width: 45%;
-  object-fit: contain;
+  width:100%;
+	float: left;
 
 }
 
 
 @media (min-width:800px) {
 
-    .container {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-    }
-
     aside {
         flex: 1 auto;
     }
 
     article {
+			display: flex;
 		flex: 3 0px;
 	}
 
@@ -178,7 +180,8 @@ img {
 
     .image {
         width: 45%;
-        margin-right: 10px;
+						margin-right: 10px;
+				}
     }
 
     .story {
