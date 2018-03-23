@@ -1,21 +1,10 @@
 .container {
 	display: flex; /*reverses row to run RTL along the horizontal axis*/
-	flex-direction: column; /*runs top to bottom along the vertical axis*/*runs bottom to top along the vertical axis  */
-}
-@media (min-width: 600px) {
-	.container {
-		flex-direction: row;
-		justify-content: center;
-	}
-}
+	flex-direction: column; }
 
 @media (min-width: 800px) {
 
 	.item-1 {
 		margin-right: auto;
 	}
-}
-
-@media query{
-	
 }
