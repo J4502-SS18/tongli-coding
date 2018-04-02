@@ -2,7 +2,7 @@
 	display: flex; /*reverses row to run RTL along the horizontal axis*/
 	flex-direction: column; }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
 
 	.item-1 {
 		margin-right: auto;
