@@ -3,8 +3,8 @@
 	flex-direction: column; }
 
 @media (min-width: 600px) {
-
-	.item-1 {
-		margin-right: auto;
+	.container {
+		flex-direction: row;
+		justify-content: center;
 	}
 }
