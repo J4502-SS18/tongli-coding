@@ -8,3 +8,9 @@
 		justify-content: center;
 	}
 }
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
+}
