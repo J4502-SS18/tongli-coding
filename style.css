@@ -3,10 +3,34 @@
 /*p{
   color:pink;
 }*/
+.authorbox img {
+  /*visibility: hidden;*/
+  display: none;
+}
+
+.pullquote {
+  display: none;
+}
+
+#pullquote {
+  font-size: 1.5em;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #fff;
+
+}
+
+
 .wrapper {
     display: flex;
     flex-flow: row wrap;
 }
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 header, article, aside, footer {
   flex: 1 100%;
   padding: 10px;
@@ -22,8 +46,8 @@ body {
 }
 p{
   font-family: 'Vollkorn', 'Playfair Display', serif;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 
 }
 .container li:last-of-type a{
@@ -31,7 +55,7 @@ p{
 	padding: 3px;
 	background: #fff;
   border-radius: 5px;
-	margin: 45px auto;
+	
   box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
 }
 .item {
@@ -125,7 +149,7 @@ img {
 
     article {
 			display: flex;
-		flex: 3 0px;
+		flex: 5 0px;
 	}
 
     .aside-1 {
@@ -175,7 +199,7 @@ img {
     }*/
 
     .image {
-        width: 45%;
+        width: 70%;
 						margin-right: 10px;
 				}
     }

@@ -2,15 +2,95 @@
 	display: flex; /*reverses row to run RTL along the horizontal axis*/
 	flex-direction: column; }
 
+
+
 @media (min-width: 600px) {
 	.container {
 		flex-direction: row;
 		justify-content: center;
+	width: 80%;}
+	.authorbox img {
+		display: block;
+		width: 100%;
+		margin-top: 0.5em;
 	}
+
+	.authorbox {
+		width: 25%;
+		max-width: 200px;
+		float: left;
+		margin-right: 20px;
+	}
+
+
 }
 @media (min-width: 800px) {
 
 	.item-1 {
 		margin-right: auto;
 	}
+	.pullquote {
+		display: block;
+	}
+}
+@media screen and (min-width:1000px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "f f f"
+				"a b b"
+        "c c e"
+				"c c ."
+        "g d d";
+  }
+
+  .authorbox {
+    width: 100%;
+    grid-area: a;
+  }
+
+  .section1 {
+    grid-area: b;
+  }
+
+  .image {
+    grid-area: c;
+  }
+	.caption {
+		grid-area: g;
+	}
+
+  .section2 {
+    grid-area: d;
+  }
+
+  .pullquote {
+    margin-top: 0;
+    grid-area: e;
+  }
+	.title {
+    grid-area: f;
+  }
+
+
+  .section1 p:first-of-type, .section2 p:first-of-type {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width:1200px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+"f f f f"
+				"a b b e"
+        "c c c ."
+				"g g . ."
+        ". d d .";
+  }
 }
