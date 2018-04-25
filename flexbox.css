@@ -23,6 +23,8 @@
 	}
 
 
+
+
 }
 @media (min-width: 800px) {
 
@@ -45,6 +47,11 @@
 				"c c ."
         "g d d";
   }
+
+		.map-wrapper{
+			width:100%
+			grid-area:h;
+		}
 
   .authorbox {
     width: 100%;
@@ -91,6 +98,7 @@
 				"a b b e"
         "c c c ."
 				"g g . ."
-        ". d d .";
+        ". d d ."
+				"h h h .";
   }
 }

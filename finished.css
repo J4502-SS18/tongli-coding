@@ -9,6 +9,7 @@
     padding-bottom:56.25%;
     position:relative;
     height:0;
+    width:100%;
 }
 
 .map-wrapper iframe{
@@ -17,6 +18,7 @@
     height:100%;
     width:100%;
     position:absolute;
+    display:block;
 }
 
 
