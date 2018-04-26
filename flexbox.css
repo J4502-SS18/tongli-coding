@@ -48,11 +48,6 @@
         "g d d";
   }
 
-		.map-wrapper{
-			width:100%
-			grid-area:h;
-		}
-
   .authorbox {
     width: 100%;
     grid-area: a;
@@ -99,6 +94,7 @@
         "c c c ."
 				"g g . ."
         ". d d ."
-				"h h h .";
+		;
   }
+
 }
