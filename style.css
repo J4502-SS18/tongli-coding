@@ -3,6 +3,24 @@
 /*p{
   color:pink;
 }*/
+* {
+	box-sizing: border-box;
+}
+.map-wrapper {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-wrapper iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 nav ul li {
     display: block;
     border-top: 1px ##79896d solid;
